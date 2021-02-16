@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+}
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    list-style: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.links {
+    display: inline;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px gainsboro;
+
+}
+
+
+.links:hover {
+    background-color: dodgerblue;
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+.container {
+    text-align: center;
+}
+
+#galleryslide {
+    background-color: aqua;
+
+}
+
+#galleryslide img {
+    margin-top: 35px;
+    height: 300px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.gridpic{
+    width: 250px;
+    height: 250px;
+}
